@@ -1,0 +1,65 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.game{
+    width: 90vw;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    top: -50px;
+    margin: 100px;
+    
+} 
+.logo{
+    position: relative;
+    top: -220px;
+    left: 0px;
+    margin: 100px;
+}
+nav>a{  position: relative;
+    top: 70px;
+    left: 1050px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 1.5rem;
+    background-color: blue;
+    color: white;
+    box-sizing: content-box;
+    padding: 0.3rem;
+    border: 0.2rem solid black;
+    z-index: 1;
+}
+h1{
+    position: relative; 
+    top: 10px;
+    z-index: 1;
+    font-size: 100px; 
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(212, 123, 7);
+}
+
+h2{
+    background-color: rgb(4, 49, 4);  
+    position: relative;
+    top: -660px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+    width: 90vw;
+    margin: 100px;
+}
+
+footer{
+    position: relative;
+    top: -500px;
+    left: 500px;
+    font-size: 40px; 
+    box-sizing: 100px;
+    color: black;
+}
