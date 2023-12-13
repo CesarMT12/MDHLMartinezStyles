@@ -1,8 +1,8 @@
 *{ 
     padding: 0;
     margin: 0;
-    box-sizing: border-box; 
- 
+    box-sizing: border-box;
+    
 }
 
 body{
@@ -21,10 +21,7 @@ a{
     position: fixed;
     top: 700px;
     opacity: 0.7;
-    
-    
-    
-    
+   
 }
 .uncor1{
     width: 200px;
@@ -63,7 +60,7 @@ a{
 .logo{
     background: none;
     position: relative;
-    top: -100px;
+    top: -40px;
     left: 0px;
     width: 400px;
     float: left;
@@ -86,8 +83,7 @@ h1{
     align-self: flex-start;
 }
 
-h2{
-    
+h2{    
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 80px;
@@ -101,44 +97,61 @@ h2{
     position: relative;
     top: -135px;
 }
-    
-section{
-    position: relative;
-    top: -100px;
-    box-sizing: content-box;
-    z-index: 1;
-    background: none;
-    text-align: left;
-    font-size: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(8, 8, 8);
-    font-weight: 900;
-    text-shadow: white 2px 2px;
-    
-}
 
-section h3{
-    font-size: 40px; 
-    box-sizing: 100px;
-    color: rgb(56, 92, 3);
-    background: none;
+header p{
     text-align: center;
+    color: rgb(219, 10, 10);
+    text-shadow: white 5px, 5px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 90px;  
 }
 
-section p{
-    font-size: 25px;
+h3{
+    text-align: center;
+    color: rgb(56, 92, 3);
+    font-size: 60px;
+    text-shadow: white 2px, 2px;
+    margin-bottom: 15px;
+}
+
+dl>dt{
+    text-decoration: underline;
+    color: black;
     font-family: cursive;
-    background: none;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: white 2px, 2px;
 }
 
-    
-    
-    
-   
+ol>li{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
 
-    
-    
-    
-        
+.id{
+    text-decoration: underline;
+    color: black;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: white 2px, 2px;
+}
 
-    
+p,dd{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: white 2px, 2px;
+    margin-bottom: 0.9px;
+}
+
+ol>li{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: white 2px, 2px;
+    margin-bottom: 0.9px;
+    margin-left: 0px;
+
+}
+
