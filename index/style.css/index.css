@@ -6,9 +6,9 @@
 }
 
 body{
-    background-image: url("../../assets/img/este.jpeg");
+    background-image: url("../../assets/img/loguito1.jpg");
     background-position: top left; 
-    background-size: 40vw;
+    background-size: 25vw;
     background-repeat: repeat;
 }
 
@@ -22,13 +22,14 @@ a{
     top: 700px;
     opacity: 0.7;
    
+   
 }
 .uncor1{
-    width: 200px;
+    width: 180px;
     background: none;
     position: absolute;
-    left: 1260px;
-    top: -360px;
+    left: 1290px;
+    top: -600px;
     
     
 }
@@ -36,15 +37,32 @@ a{
     width: 100px;
     background: none;
     position: absolute;
-    left: 1300px;
-    top: -270px;
+    left: 1330px;
+    top: -520px;
+    
+    
 }
 .uncor3{
-    width: 120px;
+    width: 100px;
     background: none;
     position: absolute;
-    left: 1300px;
-    bottom: 30px;
+    left: 1340px;
+    bottom: 120px;
+}
+.uncor4{
+        width: 100px;
+        background: none;
+        position: absolute;
+        left: 1330px;
+        top: -370px;
+}
+
+.uncor5{
+    width: 150px;
+    background: none;
+    position: absolute;
+    left: 1290px;
+    top: -270px;
 }
 .game{
     width: 100vw;
@@ -88,9 +106,9 @@ h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 80px;
     color: rgb(10, 10, 10);
-    text-shadow: rgb(79, 116, 5) 5px 5px;
+    text-shadow: rgb(253, 253, 253) 2px 2px;
     width: 100vw;
-    background: url(../../assets/img/logofondo2.jpeg);
+    background: url(../../assets/img/disco1.png);
     background-size: 5%;
     background-position: left;
     background-repeat: round;
@@ -109,8 +127,8 @@ article>h3{
 
 main p{
     text-align: center;
-    text-shadow: white 2px 2px;
-    color: black;
+    /*text-shadow: white 2px 2px;*/
+    color: rgb(253, 252, 252);
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 10px;
